@@ -16,13 +16,13 @@ public class MyClass {
         switch (num)
         {
             case 1:
-                int[] x = new int [2];
-                int[] y = new int [2];
+                double[] x = new double [2];
+                double[] y = new double [2];
                 for(int i=0;i<2;i++) {
                     System.out.print("Введите значение х"+(i+1)+": ");
-                    x[i]=scn.nextInt();
+                    x[i]=scn.nextDouble();
                     System.out.print("Введите значение y"+(i+1)+": ");
-                    y[i]=scn.nextInt();
+                    y[i]=scn.nextDouble();
                 }
                 System.out.println("Расстояние между точками = "+ Math.sqrt(Math.pow((x[1]-x[0]),2)+Math.pow((y[1]-y[0]),2)));
                 break;
