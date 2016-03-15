@@ -6,7 +6,6 @@ public class lab1 {
 
 
     public static void main(String[] args) {
-        System.out.print("Введите номер варианта: ");
         Scanner scn = new Scanner(System.in);
         double[] x = new double[2];
         double[] y = new double[2];
