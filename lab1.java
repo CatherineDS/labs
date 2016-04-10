@@ -7,10 +7,12 @@ public class lab1 {
 
 public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        double d;
+                double d,v,s;
         System.out.println("Введите длину ребра куба: ");
         d = control(scn.next());
-        System.out.println("Объём куба = " + Math.pow(d, 3) + "\nПлощадь боковой поверхности куба = " + (4 * Math.pow(d, 2)));
+        v=Math.pow(d, 3);
+        s=(4 * Math.pow(d, 2));
+        System.out.println("Объём куба = " + v + "\nПлощадь боковой поверхности куба = " + s);
     }
 
     private static double control(String x) {
